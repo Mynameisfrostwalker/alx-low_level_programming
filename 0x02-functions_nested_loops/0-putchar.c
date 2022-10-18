@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /* 0-putchar.c */
 
 /**
@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	_putchar("_putchar");
+	puts("_putchar");
 	return (0);
 }
 

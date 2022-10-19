@@ -1,15 +1,20 @@
 #include "main.h"
-/* 1-alphabet.c */
+/* print_alphabet */
 
 /**
- * main - Prints the alphabet
+ * print_alphabet - Prints the Alphabet
  *
  *
- * Return: 0
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar((char) i);
+	}
+	_putchar('\n');
 }
 

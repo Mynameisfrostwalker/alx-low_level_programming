@@ -29,7 +29,7 @@ void times_table(void)
 				_putchar(',');
 
 				if (a == 0 && ((i * (j + 1)) / 10) == 0)
-				{	
+				{
 					_putchar(' ');
 				}
 				_putchar(' ');

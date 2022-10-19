@@ -2,7 +2,7 @@
 /* 24-hours */
 
 /**
- * jack+bauer - Prints every minute of a day
+ * jack_bauer - Prints every minute of a day
  *
  */
 void jack_bauer(void)
@@ -14,10 +14,12 @@ void jack_bauer(void)
 	{
 		int a = i % 10;
 		int b = i / 10;
-		for(j = 0; j < 60; j++)
+
+		for (j = 0; j < 60; j++)
 		{
 			int c = j % 10;
 			int d = j / 10;
+
 			_putchar('0' + b);
 			_putchar('0' + a);
 			_putchar(':');
